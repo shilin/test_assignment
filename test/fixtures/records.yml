@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  acell: 1
+  bcell: 1
+  ccell: 1
+  dcell: 1
+  ecell: 
+  fcell: 
+  gcell: 1
+  hcell: 1
+  icell: MyText
+  jcell: MyText
+  kcell: 9.99
+  lcell: 1
+  mcell: 1
+  ncell: 9.99
+  ocell: 1
+  pcell: 1
+  qcell: 9.99
+  rcell: 9.99
+
+two:
+  acell: 1
+  bcell: 1
+  ccell: 1
+  dcell: 1
+  ecell: 
+  fcell: 
+  gcell: 1
+  hcell: 1
+  icell: MyText
+  jcell: MyText
+  kcell: 9.99
+  lcell: 1
+  mcell: 1
+  ncell: 9.99
+  ocell: 1
+  pcell: 1
+  qcell: 9.99
+  rcell: 9.99

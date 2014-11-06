@@ -1,0 +1,24 @@
+<h1>Records</h1>
+<%= link_to "New record", new_record_path %>
+
+<table>
+  <tr>
+<% for cn in Record.column_names %>
+  <th> <%= cn %> </th>
+  <% end %>
+  </tr>
+<% for record in @records do %>
+  <tr>
+
+<% for sell_method in Record.column_names %>
+  <td> <%= record.send(sell_method)%> </td>
+<% end %>
+
+  </tr>
+<% end %>
+</table>
+
+<p></p>
+
+
+<%= will_paginate @records %>

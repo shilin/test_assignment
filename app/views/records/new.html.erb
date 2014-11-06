@@ -1,0 +1,9 @@
+
+<h2>Import xls</h2>
+
+
+<%= form_tag records_path, multipart: true do %>
+  <%= file_field_tag :file %>
+  <%= submit_tag "Import" %>
+<% end %>
+
